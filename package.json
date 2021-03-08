@@ -1,0 +1,22 @@
+{
+  "name": "c-api",
+  "version": "1.0.0",
+  "description": "sample api implementing health, balance and withdraw methods",
+  "main": "fbq.js",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "node-rsa": "^1.1.1",
+    "ioredis": "^4.16.2",
+    "zlib": "^1.0.5",
+    "object-path": "^0.11.4",
+    "ip-anonymize": "^0.1.0",
+    "uuid": "^8.0.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
