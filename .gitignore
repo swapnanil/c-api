@@ -2,3 +2,4 @@
 .idea/
 node_modules/
 scripts/test_output
+.DS_Store

@@ -5,13 +5,18 @@
   "main": "fbq.js",
   "dependencies": {
     "sqlite3": "^5.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "uuid": "^8.3.2",
+    "rwlock": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "./scripts/test.sh",
+    "build": "npm install",
     "run": "node fbq.js",
-    "test-balance": "./scripts/test-balance.sh"
+    "test-balance": "./scripts/test-balance.sh",
+    "test-withdraw": "./scripts/test-withdraw.sh"
   },
   "author": "",
   "license": "ISC"
