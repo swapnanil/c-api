@@ -4,18 +4,14 @@
   "description": "sample api implementing health, balance and withdraw methods",
   "main": "fbq.js",
   "dependencies": {
-    "cookie": "^0.4.1",
-    "node-rsa": "^1.1.1",
-    "ioredis": "^4.16.2",
-    "zlib": "^1.0.5",
-    "object-path": "^0.11.4",
-    "ip-anonymize": "^0.1.0",
-    "uuid": "^8.0.0",
-    "underscore": "^1.10.2"
+    "sqlite3": "^5.0.2",
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./scripts/test.sh",
+    "run": "node fbq.js",
+    "test-balance": "./scripts/test-balance.sh"
   },
   "author": "",
   "license": "ISC"
