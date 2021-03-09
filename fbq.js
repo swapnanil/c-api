@@ -68,7 +68,7 @@ app.use('/wallet/:coin/withdraw', function (req, res) {
         });
 });
 
-let port = 4000 || process.env.PORT;
+let port = process.env.PORT || 4000;
 app.listen(port, () => {
     console.log(`listening at http://localhost:${port}`)
 })
